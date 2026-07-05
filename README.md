@@ -5,9 +5,10 @@ You will be able to connect an LLM to tools with AISuite, give natural language 
 
 <br>
 Final Takeaways
-In this ungraded lab, you explored how an LLM email agent interacts with a simulated email service using tool calls.
-Tool calling allows LLMs to go beyond text generation—enabling them to call functions (tools) and complete multi-step tasks.
-The set of available tools determines what the agent can and cannot do (e.g., without delete_email, it cannot remove messages).
-Clear docstrings and consistent behavior help the LLM select the right tool for each step.
-AISuite manages the interaction layer: exposing Python functions as tools, accepting parameters, making API requests, and returning results.
-Observing the full workflow—from prompt → tool calls → outputs → final response—is key to understanding and improving how agents reason and act.
+
+- In this ungraded lab, **you explored** how an LLM email agent interacts with a simulated email service using tool calls.
+- **Tool calling** allows LLMs to go beyond text generation—enabling them to call functions (tools) and complete multi-step tasks.
+- The set of available tools determines what the agent can and cannot do (e.g., without `delete_email`, it cannot remove messages).
+- Clear docstrings and consistent behavior help the LLM select the right tool for each step.
+- AISuite manages the interaction layer: exposing Python functions as tools, accepting parameters, making API requests, and returning results.
+- Observing the full workflow—from prompt → tool calls → outputs → final response—is key to understanding and improving how agents reason and act.
